@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd 
-import feather 
+import pyarrow.feather as feather
 
 
 from scipy.sparse import hstack, coo_matrix, save_npz, load_npz
@@ -26,11 +26,11 @@ np.random.seed(u.RANDOM_STATE)
 df_patients = u.load_df('df_patients')
 df_patients = df_patients.sort_values(by='PID')
 
-drugs = u.load_np('drugs')
+drugs = u.load_np('drugs')[:1]
 
 drug_features = []
 for i, drugID in enumerate(drugs): 
-    f = u.load_feature(str(i))
+    f = u.load_feature(drugID)
     drug_features.append(f)
     
 age_feature = coo_matrix(df_patients.get('Age').values.reshape(u.NUM_PATIENTS, 1))

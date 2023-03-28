@@ -1,7 +1,7 @@
 from collections import Counter
 import numpy as np
 import pandas as pd 
-import feather 
+import pyarrow.feather as feather
 from scipy import stats
 import pymysql
 import pymysql.cursors
@@ -27,7 +27,11 @@ class Drug:
         self.pid = self._get_patients_on_drug()
         self.pscores = self._get_propensity_scores()
         self.results = self._get_blank_results()
-        
+
+        # self.results['XF'] = self.results['XF'].astype(int)
+        self.results['XFE'] = self.results['XFE'].astype(int)
+        self.results['XME'] = self.results['XME'].astype(int)
+
         self.match_f = None
         self.match_m = None
         self.XF = None
@@ -101,18 +105,26 @@ class Drug:
 
         # Females 
 
-        q = 'select meddra_concept_id from hlgt_patient where PID in ("'+ "\", \"".join(self.match_f) + '")'
-        hglt_f = self.db.get_list(q)
+        # q = 'select meddra_concept_id from hlgt_patient where PID in ("'+ "\", \"".join(self.match_f) + '")'
+        # hglt_f = self.db.get_list(q)
         
-        q = 'select meddra_concept_id from soc_patient where PID in ("'+ "\", \"".join(self.match_f) + '")'
-        soc_f = self.db.get_list(q)
+        # q = 'select meddra_concept_id from soc_patient where PID in ("'+ "\", \"".join(self.match_f) + '")'
+        # soc_f = self.db.get_list(q)
         
-        q = 'select meddra_concept_id from pt_patient where PID in ("'+ "\", \"".join(self.match_f) + '")'
+        # q = f'''
+        # select meddra_concept_id from pt_patient where PID in ({", ".join([f'"{w}"' for w in self.match_f])})
+        #     and meddra_concept_id in (35204966, 35205180, 35809059, 36110649, 36416501, 36717998, 36919230, 36919236, 37080784)
+        # '''
+        q = f'''
+        select meddra_concept_id from pt_patient where PID in ({", ".join([f'"{w}"' for w in self.match_f])})
+        '''
         pt_f = self.db.get_list(q)
         
-        select_f = hglt_f
-        select_f.extend(soc_f)
-        select_f.extend(pt_f)
+        # select_f = hglt_f
+        # select_f.extend(soc_f)
+        # select_f.extend(pt_f)
+
+        select_f = pt_f
         
         # Male
 
@@ -124,18 +136,24 @@ class Drug:
             idx = np.where(counts==count)
             pids = np.take(unique_m, idx)[0]
 
-            q = 'select meddra_concept_id from hlgt_patient where PID in ("'+ "\", \"".join(pids) + '")'
-            to_add_hlgt = self.db.get_list(q)
+            # q = 'select meddra_concept_id from hlgt_patient where PID in ("'+ "\", \"".join(pids) + '")'
+            # to_add_hlgt = self.db.get_list(q)
             
-            q = 'select meddra_concept_id from soc_patient where PID in ("'+ "\", \"".join(pids) + '")'
-            to_add_soc = self.db.get_list(q)
+            # q = 'select meddra_concept_id from soc_patient where PID in ("'+ "\", \"".join(pids) + '")'
+            # to_add_soc = self.db.get_list(q)
             
-            q = 'select meddra_concept_id from pt_patient where PID in ("'+ "\", \"".join(pids) + '")'
+            # q = f'''
+            #     select meddra_concept_id from pt_patient where PID in ({", ".join([f'"{w}"' for w in pids])})
+            #         and meddra_concept_id in (35204966, 35205180, 35809059, 36110649, 36416501, 36717998, 36919230, 36919236, 37080784)
+            #     '''
+            q = f'''
+                select meddra_concept_id from pt_patient where PID in ({", ".join([f'"{w}"' for w in pids])})
+                '''
             to_add_pt = self.db.get_list(q)
 
             for i in range(count): 
-                select_m.extend(to_add_hlgt)
-                select_m.extend(to_add_soc)
+                # select_m.extend(to_add_hlgt)
+                # select_m.extend(to_add_soc)
                 select_m.extend(to_add_pt)
                 
         self.adr_count_f = Counter(select_f)

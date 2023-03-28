@@ -1,7 +1,7 @@
 from collections import defaultdict
 import numpy as np
 import pandas as pd 
-import feather 
+import pyarrow.feather as feather
 
 from utils import Utils
 from database import Database

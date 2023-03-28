@@ -1,12 +1,12 @@
 import numpy as np
 import pandas as pd 
-import feather
+import pyarrow.feather as feather
 from scipy.sparse import coo_matrix, save_npz, load_npz
 
 class Utils: 
     
     def __init__(self): 
-        self.DATA_PATH = '/home/pc2800/envs/sex_risks/Data/'
+        self.DATA_PATH = ''
         self.RANDOM_STATE = 222020
         self.NUM_PATIENTS = 8860677
 
