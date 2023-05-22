@@ -1,0 +1,290 @@
+concept_id,concept_name,rank
+35809059,death,0
+36919230,completed suicide,1
+35205180,acute myocardial infarction,2
+36110649,septic shock,3
+37080784,acute kidney injury,4
+36718001,cerebral infarction,5
+36416501,respiratory failure,6
+35204966,cardiac arrest,7
+36717998,cerebral haemorrhage,8
+36919236,suicide attempt,9
+37219871,pulmonary embolism,10
+35204970,cardio-respiratory arrest,11
+35205189,myocardial infarction,12
+36718288,coma,13
+36110642,sepsis,14
+36718005,cerebrovascular accident,15
+35205240,cardiac failure,16
+35909518,hepatic failure,17
+42890501,osteonecrosis of jaw,18
+36211099,femur fracture,19
+37219893,respiratory arrest,20
+36416487,metabolic acidosis,21
+37219831,interstitial lung disease,22
+35205243,cardiac failure congestive,23
+35104877,febrile neutropenia,24
+36718530,epilepsy,25
+37019318,renal failure,26
+36617163,breast cancer female,27
+36818634,abortion spontaneous,28
+36516888,rhabdomyolysis,29
+36211102,hip fracture,30
+35104113,pancytopenia,31
+36617162,breast cancer,32
+35707864,gastrointestinal haemorrhage,33
+37080795,chronic kidney disease,34
+37522181,hospitalisation,35
+36718067,transient ischaemic attack,36
+36516749,osteonecrosis,37
+35205259,pulmonary oedema,38
+35708242,intestinal obstruction,39
+35205164,coronary artery disease,40
+37219905,hypoxia,41
+35707713,pancreatitis,42
+35205230,ascites,43
+37219897,respiratory distress,44
+36818729,premature baby,45
+36416595,hypokalaemia,46
+37622465,deep vein thrombosis,47
+36617295,malignant neoplasm progression,48
+36919127,drug abuse,49
+36416600,hyponatraemia,50
+36918937,delirium,51
+36311923,electrocardiogram qt prolonged,52
+36009756,anaphylactic reaction,53
+42889636,foetal exposure during pregnancy,54
+36416593,hyperkalaemia,55
+35707865,haematemesis,56
+37219863,pleural effusion,57
+42889647,toxicity to various agents,58
+36776613,seizure,59
+35204953,atrial fibrillation,60
+35204928,bradycardia,61
+37622460,thrombosis,62
+36718315,depressed level of consciousness,63
+35205181,angina pectoris,64
+36617300,neoplasm malignant,65
+35104691,thrombocytopenia,66
+36718317,loss of consciousness,67
+43053715,plasma cell myeloma,68
+36110597,pneumonia,69
+35607441,blindness,70
+36315486,c-reactive protein increased,71
+35909445,cholelithiasis,72
+36919235,suicidal ideation,73
+37019321,renal impairment,74
+35204924,arrhythmia,75
+35104883,neutropenia,76
+35104868,leukopenia,77
+36211492,intentional overdose,78
+35909508,hepatic function abnormal,79
+35104306,jaundice,80
+36009762,angioedema,81
+35506622,type 2 diabetes mellitus,82
+37622517,haematoma,83
+35204998,cardiovascular disorder,84
+36919118,mental status changes,85
+36919128,drug dependence,86
+36919149,psychotic disorder,87
+35708038,colitis,88
+36110026,cellulitis,89
+35205037,syncope,90
+36718338,nervous system disorder,91
+35809131,general physical health deterioration,92
+35707861,rectal haemorrhage,93
+36110589,lower respiratory tract infection,94
+37019425,haematuria,95
+36110229,staphylococcal infection,96
+36314117,oxygen saturation decreased,97
+36718201,extrapyramidal disorder,98
+35204948,tachycardia,99
+36312538,blood creatine phosphokinase increased,100
+35104074,anaemia,101
+35506609,diabetes mellitus,102
+35506628,hyperglycaemia,103
+36313240,haemoglobin decreased,104
+37219942,lung disorder,105
+36313050,international normalised ratio increased,106
+36313534,aspartate aminotransferase increased,107
+35809310,drug interaction,108
+36313550,blood bilirubin increased,109
+36313524,alanine aminotransferase increased,110
+35506636,hypoglycaemia,111
+36416606,dehydration,112
+36516824,osteoarthritis,113
+36211375,head injury,114
+37219804,chronic obstructive pulmonary disease,115
+36312568,blood alkaline phosphatase increased,116
+36315575,blood creatinine increased,117
+37522270,surgery,118
+36313436,neutrophil count decreased,119
+36718218,tardive dyskinesia,120
+37019456,nephrolithiasis,121
+35204989,cardiac disorder,122
+36211555,device dislocation,123
+36211311,road traffic accident,124
+35909501,liver disorder,125
+35809120,disease progression,126
+37622449,hypotension,127
+37622518,haemorrhage,128
+37019410,urinary retention,129
+36313176,platelet count decreased,130
+35707866,haematochezia,131
+36718298,aphasia,132
+36313477,white blood cell count increased,133
+36919117,mental disorder,134
+37019308,renal disorder,135
+35606824,cataract,136
+36718418,dysarthria,137
+36919046,emotional distress,138
+42889640,maternal exposure during pregnancy,139
+36211297,fall,140
+36718354,disorientation,141
+36110552,infection,142
+36919059,aggression,143
+36718211,movement disorder,144
+36312070,blood pressure decreased,145
+37622529,hypertension,146
+35808914,infusion related reaction,147
+36313594,liver function test abnormal,148
+35809054,pyrexia,149
+36918984,hallucination,150
+36718301,confusional state,151
+35809225,oedema,152
+36516781,arthropathy,153
+35205185,chest pain,154
+36718500,neuropathy peripheral,155
+36009700,asthma,156
+36110736,urinary tract infection,157
+36211303,injury,158
+36718433,speech disorder,159
+36211496,overdose,160
+36313476,white blood cell count decreased,161
+43053904,exposure during pregnancy,162
+36718199,dyskinesia,163
+36718347,agitation,164
+36919098,abnormal behaviour,165
+35406392,vertigo,166
+35607450,visual acuity reduced,167
+35809181,inflammation,168
+36718171,amnesia,169
+35205038,dyspnoea,170
+35708154,abdominal pain,171
+36009833,rheumatoid arthritis,172
+36918942,depression,173
+35205236,oedema peripheral,174
+35708171,dysphagia,175
+36416610,fluid retention,176
+35809077,lethargy,177
+35809072,asthenia,178
+36718368,restlessness,179
+37220014,epistaxis,180
+35809115,condition aggravated,181
+36312077,blood pressure increased,182
+36918858,anxiety,183
+37219810,wheezing,184
+36718112,multiple sclerosis relapse,185
+37420588,treatment noncompliance,186
+36718179,cognitive disorder,187
+35708208,vomiting,188
+36311983,heart rate increased,189
+36313585,hepatic enzyme increased,190
+36313985,blood cholesterol increased,191
+36516876,muscular weakness,192
+35205184,chest discomfort,193
+36718180,disturbance in attention,194
+35205034,palpitations,195
+35708642,stomatitis,196
+35707763,gastrointestinal disorder,197
+36315380,weight decreased,198
+37320136,swelling face,199
+36110584,bronchitis,200
+36416514,decreased appetite,201
+36718265,tremor,202
+35406391,tinnitus,203
+35809082,chills,204
+36718111,multiple sclerosis,205
+35809369,drug withdrawal syndrome,206
+36919209,sleep disorder,207
+36516779,arthritis,208
+36110918,herpes zoster,209
+35809134,hyperhidrosis,210
+36918949,depressed mood,211
+35607485,visual impairment,212
+35809104,gait disturbance,213
+36211383,blister,214
+35708106,gastrooesophageal reflux disease,215
+36718395,hypoaesthesia,216
+36718280,balance disorder,217
+35809243,pain,218
+36516958,neck pain,219
+35809166,swelling,220
+35708093,diarrhoea,221
+35809146,mobility decreased,222
+36516951,back pain,223
+35809139,irritability,224
+36516837,myalgia,225
+36516957,musculoskeletal pain,226
+36110933,influenza,227
+36918861,stress,228
+35809079,malaise,229
+36718321,somnolence,230
+36009711,hypersensitivity,231
+36718379,paraesthesia,232
+36516761,bone pain,233
+35607483,vision blurred,234
+35809170,unevaluable event,235
+35205025,dizziness,236
+37219907,cough,237
+36211385,contusion,238
+35708100,constipation,239
+35809305,product substitution issue,240
+35708151,abdominal distension,241
+36516818,joint swelling,242
+36516959,pain in extremity,243
+36516973,musculoskeletal stiffness,244
+36718175,memory impairment,245
+36516812,arthralgia,246
+35227885,peripheral swelling,247
+37320158,erythema,248
+36315381,weight increased,249
+35708156,abdominal pain upper,250
+36718141,migraine,251
+35809329,drug intolerance,252
+35809076,fatigue,253
+36718555,insomnia,254
+35708202,nausea,255
+45887158,product use in unapproved indication,256
+36009783,urticaria,257
+36516848,muscle spasms,258
+36718422,dysphonia,259
+36211481,medication error,260
+36314157,blood glucose decreased,261
+36918860,nervousness,262
+37320212,rash,263
+35708139,dyspepsia,264
+36718132,headache,265
+35708690,dry mouth,266
+35809083,feeling abnormal,267
+36718372,burning sensation,268
+37320268,alopecia,269
+35809138,influenza like illness,270
+37320197,pruritus,271
+36110708,sinusitis,272
+35708628,oropharyngeal pain,273
+37522220,off label use,274
+35809320,adverse event,275
+36314160,blood glucose increased,276
+45885570,product use issue,277
+35708164,abdominal discomfort,278
+35708724,dysgeusia,279
+36110697,nasopharyngitis,280
+45885696,intentional product misuse,281
+37320205,psoriasis,282
+35809327,drug ineffective,283
+35809130,flushing,284
+36009738,drug hypersensitivity,285
+36211465,incorrect dose administered,286
+35809304,product quality issue,287
+35809005,injection site pain,288
