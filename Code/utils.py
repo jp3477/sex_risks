@@ -2,19 +2,23 @@ import numpy as np
 import pandas as pd
 import pyarrow.feather as feather
 from scipy.sparse import coo_matrix, save_npz, load_npz
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
 
 
 class Utils:
 
     def __init__(self):
-        self.DATA_PATH = '../DataGranular/'
+        self.DATA_PATH = config['FILES']['data_path']
         self.RANDOM_STATE = 222020
         self.NUM_PATIENTS = 8860677
 
     def save_df(self, df, name):
         df.reset_index().drop('index', axis=1).to_feather(self.DATA_PATH +
                                                           name + ".feather")
-        print("Saved", name)
+        # print("Saved", name)
         return True
 
     def load_df(self, name):
@@ -22,7 +26,7 @@ class Utils:
 
     def save_np(self, arr, name):
         np.save(self.DATA_PATH + name + ".npy", arr)
-        print("Saved", name)
+        # print("Saved", name)
 
     def load_np(self, name):
         return np.load(self.DATA_PATH + name + ".npy", allow_pickle=True)

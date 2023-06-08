@@ -10,61 +10,56 @@ from database import Database
 from utils import Utils
 from drug import Drug
 
-from tqdm import tqdm
+# from tqdm import tqdm
+from tqdm.contrib.concurrent import process_map
 
 np.random.seed(222020)
 
+u = Utils()
+ITERATIONS = 2
 
-def main(argv):
 
-    u = Utils()
-    iterations = 25
+def run_analysis(drugID):
+    # try:
 
-    # idx = int(argv[1])
-    print('Loading drugs')
-    drugs = u.load_np('drugs')
+    # print(f'DrugID: {drugID}')
 
-    pbar = tqdm(drugs)
-    for drugID in pbar:
-        pbar.set_description(f"drug: {drugID}")
-        # drugID = drugs[idx]
-        try:
+    # print('Reading status')
+    # status = u.read_status(drugID)
 
-            # print(f'DrugID: {drugID}')
+    # if status == 'no':
 
-            # print('Reading status')
-            # status = u.read_status(drugID)
+    try:
 
-            # if status == 'no':
+        u.write_status(drugID, 'working')
 
-            # try:
+        drug = Drug(drugID)
 
-            u.write_status(drugID, 'working')
+        # print('Iterating and matching')
+        for itr in range(1, ITERATIONS + 1):
+            drug.match()
+            drug.count_adr()
+            drug.assign_abcd(itr)
+            drug.do_chi_square()
+            drug.calc_logROR()
+            drug.reset_for_next_itr()
 
-            drug = Drug(drugID)
+        # print('Saving results')
+        x = drug.save_results(ITERATIONS)
 
-            # print('Iterating and matching')
-            for itr in tqdm(range(1, iterations + 1), desc='iterations'):
-                drug.match()
-                drug.count_adr()
-                drug.assign_abcd(itr)
-                drug.do_chi_square()
-                drug.calc_logROR()
-                drug.reset_for_next_itr()
+        if x:
+            u.write_status(drugID, 'yes')
+        else:
+            u.write_status(drugID, 'no')
 
-            # print('Saving results')
-            x = drug.save_results(iterations)
-
-            if x:
-                u.write_status(drugID, 'yes')
-            else:
-                u.write_status(drugID, 'no')
-
-        except:
-            # print('Failed miserably')
-            info = str(sys.exc_info()[1])
-            u.write_status(drugID, 'error ' + info)
+    except:
+        # print('Failed miserably')
+        info = str(sys.exc_info()[1])
+        u.write_status(drugID, 'error ' + info)
 
 
 if __name__ == "__main__":
-    main(sys.argv)
+    print('Loading drugs')
+    drugs = u.load_np('drugs')
+
+    process_map(run_analysis, drugs, max_workers=10)
