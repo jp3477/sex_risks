@@ -30,6 +30,8 @@ def fetch_patients():
     # Save patients
     u.save_df(df_patients, 'df_patients')
 
+    return df_patien
+
 
 if __name__ == '__main__':
     fetch_patients()
