@@ -59,7 +59,7 @@ def load_top_drugs():
     return drugs
 
 
-def get_top_adrs(meddra_concepts, n=50):
+def get_top_adrs(meddra_concepts):
     # adr_file = "./top_adr.xlsx"
     adr_file = "./FAERS_ADE_Severity.csv"
     top_adrs = pd.read_csv(adr_file, header=0)
@@ -74,7 +74,7 @@ def get_top_adrs(meddra_concepts, n=50):
     return top_adrs
 
 
-def main():
+def filter_sex_risks():
     print("Loading concept table")
     concept_table = load_concept_table()
     print("Loading concept relationship table")
@@ -173,85 +173,83 @@ def main():
     # print(sex_risks)
     # sex_risks = sex_risks[sex_risks['adr'].isin(top_adrs)]
 
-    print(sex_risks)
+    return sex_risks
 
 
-def main2():
-    print("Loading concept table")
-    concept_table = load_concept_table()
-    print("Loading concept relationship table")
-    concept_relationship_table = load_concept_relationship_table()
-    concept_relationship_table = concept_relationship_table[
-        concept_relationship_table['relationship_id'].isin(['Is a',
-                                                            'Maps to'])]
+# def main2():
+#     print("Loading concept table")
+#     concept_table = load_concept_table()
+#     print("Loading concept relationship table")
+#     concept_relationship_table = load_concept_relationship_table()
+#     concept_relationship_table = concept_relationship_table[
+#         concept_relationship_table['relationship_id'].isin(['Is a',
+#                                                             'Maps to'])]
 
-    drug_concepts = concept_table[(concept_table['concept_class_id'].isin(
-        ['Ingredient', 'Multiple Ingredients', 'Precise Ingredient'])) &
-                                  (concept_table['vocabulary_id'] == 'RxNorm')]
-    drug_concepts['concept_name'] = drug_concepts['concept_name'].apply(
-        str.lower)
+#     drug_concepts = concept_table[(concept_table['concept_class_id'].isin(
+#         ['Ingredient', 'Multiple Ingredients', 'Precise Ingredient'])) &
+#                                   (concept_table['vocabulary_id'] == 'RxNorm')]
+#     drug_concepts['concept_name'] = drug_concepts['concept_name'].apply(
+#         str.lower)
 
-    atc_concepts = concept_table[(concept_table['vocabulary_id'] == 'ATC')]
+#     atc_concepts = concept_table[(concept_table['vocabulary_id'] == 'ATC')]
 
-    print("Loading top drugs")
-    drugs = load_top_drugs()
-    filtered_drugs = []
-    for _, drug in drugs.iterrows():
-        rank, drug_name = drug['rank'], drug['drug_name']
+#     print("Loading top drugs")
+#     drugs = load_top_drugs()
+#     filtered_drugs = []
+#     for _, drug in drugs.iterrows():
+#         rank, drug_name = drug['rank'], drug['drug_name']
 
-        if ';' not in drug_name:
-            concept_name = drug_name
-        else:
-            concept_name = drug_name.replace("; ", " / ")
+#         if ';' not in drug_name:
+#             concept_name = drug_name
+#         else:
+#             concept_name = drug_name.replace("; ", " / ")
 
-        concept = drug_concepts[(
-            drug_concepts['concept_name'] == concept_name)]
+#         concept = drug_concepts[(
+#             drug_concepts['concept_name'] == concept_name)]
 
-        if len(concept) > 0:
-            filtered_drugs.append({'rank': rank, 'concept_name': concept_name})
+#         if len(concept) > 0:
+#             filtered_drugs.append({'rank': rank, 'concept_name': concept_name})
 
-        else:
-            print(f'unmatched: {concept_name}')
+#         else:
+#             print(f'unmatched: {concept_name}')
 
-    filtered_drugs = pd.DataFrame.from_records(filtered_drugs)
+#     filtered_drugs = pd.DataFrame.from_records(filtered_drugs)
 
-    filtered_drugs = filtered_drugs.merge(drug_concepts, on=['concept_name'])
+#     filtered_drugs = filtered_drugs.merge(drug_concepts, on=['concept_name'])
 
-    filtered_drugs = atc_concepts.merge(concept_relationship_table[
-        concept_relationship_table['relationship_id'] == 'Maps to'],
-                                        left_on=['concept_id'],
-                                        right_on=['concept_id_1']).merge(
-                                            filtered_drugs,
-                                            left_on=['concept_id_2'],
-                                            right_on=['concept_id'],
-                                            suffixes=('_atc', '_drug'))
+#     filtered_drugs = atc_concepts.merge(concept_relationship_table[
+#         concept_relationship_table['relationship_id'] == 'Maps to'],
+#                                         left_on=['concept_id'],
+#                                         right_on=['concept_id_1']).merge(
+#                                             filtered_drugs,
+#                                             left_on=['concept_id_2'],
+#                                             right_on=['concept_id'],
+#                                             suffixes=('_atc', '_drug'))
 
-    filtered_drugs = filtered_drugs[[
-        'concept_id_atc', 'concept_name_atc', 'rank'
-    ]]
-    filtered_drugs = filtered_drugs.rename(columns={
-        'concept_id_atc': 'concept_id',
-        'concept_name_atc': ' concept_name'
-    })
+#     filtered_drugs = filtered_drugs[[
+#         'concept_id_atc', 'concept_name_atc', 'rank'
+#     ]]
+#     filtered_drugs = filtered_drugs.rename(columns={
+#         'concept_id_atc': 'concept_id',
+#         'concept_name_atc': ' concept_name'
+#     })
 
-    filtered_drugs.to_csv('top_drugs_with_concepts_ids.csv', index=False)
+#     filtered_drugs.to_csv('top_drugs_with_concepts_ids.csv', index=False)
 
+# def main3():
+#     print("Loading concept table")
+#     concept_table = load_concept_table()
 
-def main3():
-    print("Loading concept table")
-    concept_table = load_concept_table()
+#     meddra_concepts = concept_table[(
+#         concept_table['vocabulary_id'] == 'MedDRA')]
+#     meddra_concepts['concept_name'] = meddra_concepts['concept_name'].apply(
+#         str.lower)
 
-    meddra_concepts = concept_table[(
-        concept_table['vocabulary_id'] == 'MedDRA')]
-    meddra_concepts['concept_name'] = meddra_concepts['concept_name'].apply(
-        str.lower)
+#     top_adrs = get_top_adrs(meddra_concepts, n=50)
 
-    top_adrs = get_top_adrs(meddra_concepts, n=50)
-
-    top_adrs = top_adrs[['concept_id', 'concept_name']]
-    top_adrs['rank'] = top_adrs.index
-    top_adrs.to_csv('top_adrs_with_concepts_ids.csv', index=False)
-
+#     top_adrs = top_adrs[['concept_id', 'concept_name']]
+#     top_adrs['rank'] = top_adrs.index
+#     top_adrs.to_csv('top_adrs_with_concepts_ids.csv', index=False)
 
 if __name__ == '__main__':
-    main()
+    filter_sex_risks()

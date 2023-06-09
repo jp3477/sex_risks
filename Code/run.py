@@ -58,8 +58,11 @@ def run_analysis(drugID):
         u.write_status(drugID, 'error ' + info)
 
 
-if __name__ == "__main__":
+def run_analysis_mp():
     print('Loading drugs')
     drugs = u.load_np('drugs')
-
     process_map(run_analysis, drugs, max_workers=10)
+
+
+if __name__ == "__main__":
+    run_analysis_mp()
