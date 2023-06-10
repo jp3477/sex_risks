@@ -86,7 +86,8 @@ def make_features(drugID):
         drugID
     ) + ' then 1 end) as drug from atc_5_patient_psm group by PID order by PID'
 
-    drug_feature = np.array(db.get_list(q)).reshape(u.NUM_PATIENTS, 1)
+    # drug_feature = np.array(db.get_list(q)).reshape(u.NUM_PATIENTS, 1)
+    drug_feature = np.array(db.get_list(q)).reshape(-1, 1)
 
     u.save_feature(drug_feature, drugID)
 

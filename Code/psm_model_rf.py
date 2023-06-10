@@ -35,8 +35,10 @@ def run_rf_model():
         f = u.load_feature(drugID)
         drug_features.append(f)
 
-    age_feature = coo_matrix(
-        df_patients.get('Age').values.reshape(u.NUM_PATIENTS, 1))
+    # age_feature = coo_matrix(
+    #     df_patients.get('Age').values.reshape(u.NUM_PATIENTS, 1))
+
+    age_feature = coo_matrix(df_patients.get('Age').values.reshape(-1, 1))
 
     num_drugs_feature = coo_matrix(hstack(drug_features).sum(1))
 
