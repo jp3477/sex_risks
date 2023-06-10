@@ -82,9 +82,21 @@ def make_features(drugID):
     # i = sys.argv[1]
     # i = int(i)
 
-    q = 'select count(case when atc_5_id = ' + str(
-        drugID
-    ) + ' then 1 end) as drug from atc_5_patient_psm group by PID order by PID'
+    q = f"""
+        SELECT 
+            COUNT(CASE WHEN atc_5_id = {drugID} THEN 1 END) AS drug
+        FROM atc_5_patient_psm psm
+        JOIN effect_openfda_19q2.patient p
+            ON psm.PID = p.safetyreportid
+        WHERE (p.patient_sex='Female' OR p.patient_sex='Male')
+            AND p.patient_custom_master_age BETWEEN 18 AND 85
+        GROUP BY psm.atc_5_id, psm.PID
+        ORDER BY psm.PID
+    """
+
+    # q = 'select count(case when atc_5_id = ' + str(
+    #     drugID
+    # ) + ' then 1 end) as drug from atc_5_patient_psm group by PID order by PID'
 
     # drug_feature = np.array(db.get_list(q)).reshape(u.NUM_PATIENTS, 1)
     drug_feature = np.array(db.get_list(q)).reshape(-1, 1)
@@ -96,7 +108,7 @@ def make_features_mp():
 
     drugs = u.load_np('drugs')
 
-    process_map(make_features, drugs, max_workers=20)
+    process_map(make_features, drugs, max_workers=35)
 
 
 if __name__ == '__main__':
