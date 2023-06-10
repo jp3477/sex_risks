@@ -8,17 +8,17 @@ from results_compile import compile_results
 from important_sex_biased_adr import filter_sex_risks
 
 if __name__ == '__main__':
-    # print("Fetching patients")
-    # fetch_patients()
+    print("Fetching patients")
+    fetch_patients()
 
     print("Make features")
     make_features_mp()
 
-    print("Calculate propensity scores")
-    calculate_propensity_scores()
-
     print("Running propensity score matching")
     run_rf_model()
+
+    print("Calculate propensity scores")
+    calculate_propensity_scores()
 
     print("Run analysis")
     run_analysis_mp()
