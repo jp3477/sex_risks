@@ -90,7 +90,7 @@ def make_features(drugID):
             ON psm.PID = p.safetyreportid
         WHERE (p.patient_sex='Female' OR p.patient_sex='Male')
             AND p.patient_custom_master_age BETWEEN 18 AND 85
-        GROUP BY psm.atc_5_id, psm.PID
+        GROUP BY psm.PID
         ORDER BY psm.PID
     """
 
