@@ -1,0 +1,13 @@
+[DATABASE]
+ssh_server = 
+ssh_user = 
+ssh_pass = 
+
+mysql_host = 
+mysql_user = 
+mysql_db = 
+mysql_pass =
+
+[FILES]
+
+data_path =

@@ -1,0 +1,912 @@
+concept_id, concept_name,rank
+21600005,"sodium fluoride; oral, local oral (caries prophylactic agents)",265
+21600010,"sodium fluoride, combinations; oral, local oral",265
+21600905,sodium fluoride; oral (fluoride),265
+21600907,"fluoride, combinations; systemic",265
+21600013,"chlorhexidine; oral, local oral (stomatological prep.)",273
+21601170,chlorhexidine; irrigating solution,273
+21602204,chlorhexidine; topical (biguanides and amidines),273
+21602208,"chlorhexidine, combinations; topical",273
+21602275,chlorhexidine; topical (medicated dressings with antiinfectives),273
+21603221,"chlorhexidine; oral, local oral (antiseptics)",273
+21603603,chlorhexidine; ophthalmic (antiinfectives),273
+21605155,chlorhexidine; otic,273
+21605193,"chlorhexidine; ophthalmic, otic (antiinfectives)",273
+21600027,metronidazole; local oral,222
+21600102,"omeprazole, amoxicillin and metronidazole; systemic",222
+21600103,"lansoprazole, tetracycline and metronidazole; systemic",222
+21600104,"lansoprazole, amoxicillin and metronidazole; systemic",222
+40255043,"bismuth subcitrate, tetracycline and metronidazole; systemic",222
+1588673,"pantoprazole, amoxicillin, clarithromycin and metronidazole; systemic",222
+715857,"rabeprazole, amoxicillin and metronidazole; systemic",222
+715864,"vonoprazan, amoxicillin and metronidazole; systemic",222
+21602096,metronidazole; topical,222
+21602392,metronidazole; vaginal,222
+21603039,cefuroxime and metronidazole; systemic,222
+21603040,spiramycin and metronidazole; systemic,222
+45893269,ciprofloxacin and metronidazole; systemic,222
+947978,norfloxacin and metronidazole; systemic,222
+21603054,metronidazole; parenteral,222
+21604857,"metronidazole; oral, rectal",222
+45893518,"metronidazole, combinations; systemic",222
+947813,metronidazole and diloxanide; systemic,222
+21600031,doxycycline; local oral,79
+21602800,doxycycline; systemic,79
+21600032,minocycline; local oral,236
+947810,minocycline; topical,236
+21602806,minocycline; systemic,236
+21600034,triamcinolone; local oral,106
+40255458,"triamcinolone; rectal, topical",106
+21602113,triamcinolone; topical,106
+21602150,triamcinolone and antiseptics; topical,106
+21602164,triamcinolone and antibiotics; topical,106
+21602184,"triamcinolone, combinations; topical",106
+21602736,triamcinolone; systemic,106
+21605052,triamcinolone; nasal,106
+21603289,triamcinolone; inhalant,106
+21603622,triamcinolone; ophthalmic,106
+21605176,triamcinolone and antiinfectives; otic,106
+21600035,dexamethasone; local oral,272
+21601613,"dexamethasone; rectal, topical",272
+21602116,"dexamethasone; topical (corticosteroids, moderately potent (group ii))",272
+21602167,dexamethasone and antibiotics; topical,272
+21602187,"dexamethasone, combinations; topical",272
+21602286,"dexamethasone; topical (corticosteroids, comb. for treatment of acne)",272
+21602730,dexamethasone; systemic,272
+21605045,"dexamethasone; inhalant, nasal",272
+21605055,"dexamethasone, combinations; inhalant, nasal",272
+21603618,"dexamethasone; ophthalmic (corticosteroids, plain)",272
+21603652,"dexamethasone and antiinfectives; ophthalmic (ophth., corticosteroids and antiinfectives in comb.)",272
+21603664,dexamethasone; ophthalmic (corticosteroids/antiinfectives/mydriatics in comb.),272
+21605168,dexamethasone; otic,272
+21605178,dexamethasone and antiinfectives; otic,272
+21605201,"dexamethasone; ophthalmic, otic (corticosteroids)",272
+21605206,"dexamethasone and antiinfectives; ophthalmic, otic (ophth. and otological prep., corticosteroids and antiinfectives in comb.)",272
+21600036,hydrocortisone; local oral,149
+21600654,hydrocortisone; rectal,149
+21601608,"hydrocortisone; rectal, topical",149
+21602102,hydrocortisone; topical,149
+21602106,hydrocortisone butyrate; topical,149
+21602115,hydrocortisone buteprate; topical,149
+21602135,hydrocortisone aceponate; topical,149
+21602146,hydrocortisone and antiseptics; topical,149
+21602151,hydrocortisone butyrate and antiseptics; topical,149
+21602160,hydrocortisone and antibiotics; topical,149
+21602180,"hydrocortisone, combinations; topical",149
+21602737,hydrocortisone; systemic,149
+21605057,"hydrocortisone, combinations; inhalant, nasal",149
+21603619,"hydrocortisone; ophthalmic (corticosteroids, plain)",149
+21603634,hydrocortisone and mydriatics; ophthalmic,149
+21603654,"hydrocortisone and antiinfectives; ophthalmic (ophth., corticosteroids and antiinfectives in comb.)",149
+21603666,hydrocortisone; ophthalmic (corticosteroids/antiinfectives/mydriatics in comb.),149
+21605166,hydrocortisone; otic,149
+21605175,hydrocortisone and antiinfectives; otic,149
+21605208,"hydrocortisone and antiinfectives; ophthalmic, otic (ophth. and otological prep., corticosteroids and antiinfectives in comb.)",149
+21600037,"prednisolone, combinations; local oral",153
+21600653,prednisolone; rectal,153
+21601609,"prednisolone; rectal, topical",153
+21602103,prednisolone; topical,153
+21602145,prednisolone and antiseptics; topical,153
+21602162,prednisolone and antibiotics; topical,153
+21602181,"prednisolone, combinations; topical",153
+21602734,prednisolone; systemic,153
+21605044,"prednisolone; inhalant, nasal",153
+21605054,"prednisolone, combinations; inhalant, nasal",153
+21603621,"prednisolone; ophthalmic (corticosteroids, plain)",153
+21603635,prednisolone and mydriatics; ophthalmic,153
+21603653,"prednisolone and antiinfectives; ophthalmic (ophth., corticosteroids and antiinfectives in comb.)",153
+21603665,prednisolone; ophthalmic (corticosteroids/antiinfectives/mydriatics in comb.),153
+21605167,prednisolone; otic,153
+21605173,prednisolone and antiinfectives; otic,153
+21605202,"prednisolone; ophthalmic, otic (corticosteroids)",153
+21605207,"prednisolone and antiinfectives; ophthalmic, otic (ophth. and otological prep., corticosteroids and antiinfectives in comb.)",153
+21605234,prednisolone and promethazine; systemic,153
+21600039,epinephrine; local oral,251
+21601057,epinephrine; topical,251
+21600303,epinephrine; parenteral,251
+21605023,"epinephrine; inhalant, nasal",251
+21603251,epinephrine; inhalant,251
+21603275,epinephrine and other drugs for obstructive airway diseases; inhalant,251
+21603673,epinephrine; ophthalmic,251
+21603678,"epinephrine, combinations; ophthalmic",251
+21600041,acetylsalicylic acid; local oral,36
+21600991,acetylsalicylic acid; oral (platelet aggregation inhibitors excl. heparin),36
+40252642,"acetylsalicylic acid, combinations with proton pump inhibitors; systemic",36
+1123780,sotalol and acetylsalicylic acid; systemic,36
+1123901,metoprolol and acetylsalicylic acid; systemic,36
+1123893,bisoprolol and acetylsalicylic acid; systemic,36
+948039,"[U] simvastatin, combinations; systemic",36
+948016,"[U] pravastatin, combinations; systemic",36
+21601904,simvastatin and acetylsalicylic acid; oral,36
+21601905,pravastatin and acetylsalicylic acid; systemic,36
+40251722,"simvastatin, acetylsalicylic acid and ramipril; systemic",36
+43534778,rosuvastatin and acetylsalicylic acid; systemic,36
+45893500,"atorvastatin, acetylsalicylic acid and ramipril; systemic",36
+45893511,atorvastatin and acetylsalicylic acid; systemic,36
+1123623,"atorvastatin, acetylsalicylic acid and perindopril; systemic",36
+21604019,acetylsalicylic acid and corticosteroids; systemic,36
+1123777,dihydrocodeine and acetylsalicylic acid; systemic,36
+1123678,codeine and acetylsalicylic acid; systemic,36
+1123747,oxycodone and acetylsalicylic acid; systemic,36
+21604305,"acetylsalicylic acid; systemic, rectal",36
+21604320,"acetylsalicylic acid, combinations excl. psycholeptics; systemic",36
+21604325,"acetylsalicylic acid, combinations with psycholeptics; systemic",36
+21600083,ranitidine; systemic,177
+21600088,ranitidine bismuth citrate; oral,177
+21600084,famotidine; systemic,66
+21600091,"famotidine, combinations; systemic",66
+21600096,omeprazole; systemic,8
+21600102,"omeprazole, amoxicillin and metronidazole; systemic",8
+21600106,"omeprazole, amoxicillin and clarithromycin; systemic",8
+21600097,pantoprazole; systemic,20
+21600105,"pantoprazole, amoxicillin and clarithromycin; systemic",20
+1588673,"pantoprazole, amoxicillin, clarithromycin and metronidazole; systemic",20
+21600098,lansoprazole; oral,191
+45893274,"lansoprazole, combinations; systemic",191
+21600103,"lansoprazole, tetracycline and metronidazole; systemic",191
+21600104,"lansoprazole, amoxicillin and metronidazole; systemic",191
+21600108,"lansoprazole, amoxicillin and clarithromycin; systemic",191
+45893460,"lansoprazole, clarithromycin and tinidazole; systemic",191
+45893273,"lansoprazole, amoxicillin and levofloxacin; systemic",191
+21600100,esomeprazole; systemic,122
+21600107,"esomeprazole, amoxicillin and clarithromycin; systemic",122
+40254096,naproxen and esomeprazole; oral,122
+40254795,dexlansoprazole; oral,263
+21600102,"omeprazole, amoxicillin and metronidazole; systemic",40
+21600104,"lansoprazole, amoxicillin and metronidazole; systemic",40
+21600105,"pantoprazole, amoxicillin and clarithromycin; systemic",40
+21600106,"omeprazole, amoxicillin and clarithromycin; systemic",40
+21600107,"esomeprazole, amoxicillin and clarithromycin; systemic",40
+21600108,"lansoprazole, amoxicillin and clarithromycin; systemic",40
+45893273,"lansoprazole, amoxicillin and levofloxacin; systemic",40
+1588673,"pantoprazole, amoxicillin, clarithromycin and metronidazole; systemic",40
+715856,"rabeprazole, amoxicillin and clarithromycin; systemic",40
+715857,"rabeprazole, amoxicillin and metronidazole; systemic",40
+715863,"vonoprazan, amoxicillin and clarithromycin; systemic",40
+715864,"vonoprazan, amoxicillin and metronidazole; systemic",40
+21602823,amoxicillin; systemic,40
+21602863,amoxicillin and beta-lactamase inhibitor; systemic,40
+45893273,"lansoprazole, amoxicillin and levofloxacin; systemic",240
+21603019,levofloxacin; systemic,240
+43534794,levofloxacin and ornidazole; systemic,240
+43534860,levofloxacin; ophthalmic,240
+21603613,[U] levofloxacin; ophthalmic,240
+21600111,sucralfate; oral,182
+21600135,dicycloverine; systemic,147
+21600493,"ondansetron; systemic, rectal",83
+21600535,docusate sodium; oral,163
+21600590,"docusate sodium, incl. combinations; rectal",163
+21600575,macrogol; oral,226
+21600582,"macrogol, combinations; oral",226
+43534742,linaclotide; oral,244
+21600604,nystatin; oral,227
+21601911,nystatin; topical,227
+21602363,nystatin; vaginal,227
+21602374,"nystatin, combinations; vaginal",227
+21600649,"morphine, combinations; oral",140
+21604256,"morphine; systemic, rectal",140
+21604264,"morphine, combinations; systemic",140
+21604292,morphine and antispasmodics; systemic,140
+21603400,opium alkaloids with morphine; systemic,140
+21600655,prednisone; rectal,30
+21602735,prednisone; oral,30
+21600656,betamethasone; rectal,233
+21601610,"betamethasone; rectal, topical",233
+21602120,betamethasone; topical,233
+21602153,betamethasone and antiseptics; topical,233
+21602170,betamethasone and antibiotics; topical,233
+21602190,"betamethasone, combinations; topical",233
+21602729,betamethasone; systemic,233
+21605048,betamethasone; nasal,233
+21603287,betamethasone; inhalant,233
+21603623,"betamethasone; ophthalmic (corticosteroids, plain)",233
+21603637,betamethasone and mydriatics; ophthalmic,233
+21603656,"betamethasone and antiinfectives; ophthalmic (ophth., corticosteroids and antiinfectives in comb.)",233
+21603667,betamethasone; ophthalmic (corticosteroids/antiinfectives/mydriatics in comb.),233
+21605169,betamethasone; otic,233
+21605203,"betamethasone; ophthalmic, otic (corticosteroids)",233
+21605210,"betamethasone and antiinfectives; ophthalmic, otic (ophth. and otological prep., corticosteroids and antiinfectives in comb.)",233
+21600658,"budesonide; oral, local oral",207
+21602128,budesonide; topical,207
+21605047,budesonide; nasal,207
+21603281,formoterol and budesonide; inhalant,207
+1588664,salmeterol and budesonide; inhalant,207
+715850,"formoterol, glycopyrronium bromide and budesonide; inhalant",207
+21603285,budesonide; inhalant,207
+21600659,beclometasone; rectal,220
+21602134,beclometasone; topical,220
+21602173,beclometasone and antibiotics; topical,220
+21605043,beclometasone; nasal,220
+43534839,formoterol and beclometasone; inhalant,220
+1123813,salbutamol and beclometasone; inhalant,220
+1502099,"formoterol, glycopyrronium bromide and beclometasone; inhalant",220
+21603284,beclometasone; inhalant,220
+21600663,"sulfasalazine; oral, rectal",284
+21600664,"mesalazine; oral, rectal",184
+21600682,phentermine; oral,181
+1588704,bupropion and naltrexone; systemic,18
+21604741,bupropion; oral,18
+948057,[U] bupropion; oral,18
+21600718,"insulin lispro; parenteral (insulins and analog. for injection, fast-acting)",71
+44819155,insulin degludec and insulin aspart; parenteral,136
+43534747,insulin degludec; parenteral,136
+1588678,insulin degludec and liraglutide; parenteral,136
+21600739,insulin glargine; parenteral,32
+1501756,insulin glargine and lixisenatide; systemic,32
+21600740,insulin detemir; parenteral,124
+1588678,insulin degludec and liraglutide; parenteral,146
+1123630,liraglutide; parenteral,146
+21600795,[U] liraglutide; parenteral,146
+21600747,metformin; oral,3
+21600767,metformin and sulfonylureas; systemic,3
+21600768,metformin and rosiglitazone; systemic,3
+21600770,metformin and pioglitazone; systemic,3
+21600772,metformin and sitagliptin; systemic,3
+21600773,metformin and vildagliptin; systemic,3
+40251676,metformin and saxagliptin; systemic,3
+40251677,metformin and linagliptin; systemic,3
+43534749,metformin and alogliptin; systemic,3
+43534750,metformin and repaglinide; systemic,3
+43534751,metformin and dapagliflozin; systemic,3
+45893267,metformin and canagliflozin; systemic,3
+45893467,metformin and acarbose; systemic,3
+45893491,metformin and gemigliptin; systemic,3
+1588671,metformin and empagliflozin; systemic,3
+1501888,metformin and evogliptin; systemic,3
+715784,metformin and ertugliflozin; systemic,3
+715825,"metformin, saxagliptin and dapagliflozin; systemic",3
+947843,metformin and lobeglitazone; systemic,3
+947815,"metformin, linagliptin and empagliflozin; systemic",3
+21600750,glibenclamide; oral,200
+21600756,glipizide; oral,49
+21600761,glimepiride; oral,87
+21600769,glimepiride and rosiglitazone; oral,87
+21600771,glimepiride and pioglitazone; oral,87
+21600770,metformin and pioglitazone; systemic,168
+21600771,glimepiride and pioglitazone; oral,168
+21600774,pioglitazone and alogliptin; oral,168
+43534748,pioglitazone and sitagliptin; oral,168
+21600782,pioglitazone; oral,168
+21600772,metformin and sitagliptin; systemic,74
+43534748,pioglitazone and sitagliptin; oral,74
+715785,sitagliptin and ertugliflozin; oral,74
+21600784,sitagliptin; oral,74
+43534753,"sitagliptin and simvastatin; oral, topical",74
+21600774,pioglitazone and alogliptin; oral,295
+43534749,metformin and alogliptin; systemic,295
+21600787,alogliptin; oral,295
+40251677,metformin and linagliptin; systemic,293
+45893517,linagliptin and empagliflozin; oral,293
+947815,"metformin, linagliptin and empagliflozin; systemic",293
+40251691,linagliptin; oral,293
+43534751,metformin and dapagliflozin; systemic,217
+1588688,saxagliptin and dapagliflozin; oral,217
+715825,"metformin, saxagliptin and dapagliflozin; systemic",217
+1123890,dapagliflozin; oral,217
+40251701,[U] dapagliflozin; oral,217
+45893267,metformin and canagliflozin; systemic,294
+1123673,canagliflozin; oral,294
+43534755,[U] canagliflozin; oral,294
+45893517,linagliptin and empagliflozin; oral,102
+1588671,metformin and empagliflozin; systemic,102
+947815,"metformin, linagliptin and empagliflozin; systemic",102
+1123740,empagliflozin; oral,102
+43534756,[U] empagliflozin; oral,102
+43534753,"sitagliptin and simvastatin; oral, topical",13
+21601856,simvastatin; oral,13
+948039,"[U] simvastatin, combinations; systemic",13
+21601901,"simvastatin and ezetimibe; oral, topical",13
+43534775,"simvastatin and fenofibrate; oral, topical",13
+21601904,simvastatin and acetylsalicylic acid; oral,13
+40251722,"simvastatin, acetylsalicylic acid and ramipril; systemic",13
+715821,gemigliptin and rosuvastatin; oral,17
+21601862,rosuvastatin; oral,17
+43534777,rosuvastatin and ezetimibe; oral,17
+715860,rosuvastatin and omega-3 fatty acids; systemic,17
+715858,rosuvastatin and fenofibrate; oral,17
+43534778,rosuvastatin and acetylsalicylic acid; systemic,17
+45893493,"rosuvastatin, amlodipine and lisinopril; oral",17
+45893492,rosuvastatin and amlodipine; oral,17
+1588687,rosuvastatin and valsartan; oral,17
+1501791,"rosuvastatin, perindopril and indapamide; systemic",17
+1501780,"rosuvastatin, amlodipine and perindopril; systemic",17
+715859,rosuvastatin and fimasartan; oral,17
+715861,rosuvastatin and ramipril; oral,17
+1123611,dulaglutide; parenteral,96
+1588695,[U] dulaglutide; parenteral,96
+1501778,semaglutide; parenteral,129
+21600816,ergocalciferol; systemic,46
+21600819,calcitriol; systemic,277
+21602040,calcitriol; topical,277
+21600820,colecalciferol; oral,60
+1501789,"colecalciferol, combinations; systemic",60
+21604160,alendronic acid and colecalciferol; oral,60
+21604161,"risedronic acid, calcium and colecalciferol, sequential; oral",60
+40254956,"alendronic acid, calcium and colecalciferol, sequential; oral",60
+45893276,risedronic acid and colecalciferol; systemic,60
+1588679,"zoledronic acid, calcium and colecalciferol, sequential; systemic",60
+715822,ibandronic acid and colecalciferol; systemic,60
+44819161,strontium ranelate and colecalciferol; systemic,60
+21600877,potassium chloride; oral,33
+21600883,"potassium chloride, combinations; systemic",33
+21601196,potassium chloride; parenteral,33
+21601475,bendroflumethiazide and potassium; oral,33
+21601476,hydroflumethiazide and potassium; oral,33
+21601477,hydrochlorothiazide and potassium; oral,33
+21601478,chlorothiazide and potassium; oral,33
+21601479,polythiazide and potassium; oral,33
+21601480,trichlormethiazide and potassium; oral,33
+21601481,cyclopenthiazide and potassium; oral,33
+21601482,methyclothiazide and potassium; oral,33
+21601483,cyclothiazide and potassium; oral,33
+21601504,quinethazone and potassium; oral,33
+21601505,clopamide and potassium; oral,33
+21601506,chlortalidone and potassium; oral,33
+21601507,mefruside and potassium; oral,33
+21601508,clofenamide and potassium; systemic,33
+21601523,furosemide and potassium; oral,33
+21601524,bumetanide and potassium; oral,33
+21600878,potassium citrate; oral,297
+21600917,androstanolone; systemic (androstan derivatives),172
+21602510,"testosterone; systemic, rectal, sublingual, transdermal",172
+21602513,androstanolone; systemic (5-androstanon (3) derivatives),172
+21602561,testosterone and estrogen; systemic,172
+21600965,warfarin; systemic,58
+21600989,clopidogrel; oral,29
+40252640,ticagrelor; oral,247
+43534761,rivaroxaban; oral,86
+21601031,[U] rivaroxaban; oral,86
+43534762,apixaban; oral,48
+21601086,ferrous sulfate; oral,116
+21601111,"ferrous sulfate, combinations; systemic",116
+21601110,"ferrous fumarate, combinations; systemic (iron in comb. with folic acid)",67
+21601114,"iron, vitamin B12 and folic acid; systemic",67
+21601115,"iron, multivitamins and folic acid; systemic",67
+21601129,folic acid; systemic (folic acid and derivatives),67
+21601130,"folic acid, combinations; systemic",67
+715877,folic acid; systemic (diagnostic agents),67
+21600234,digoxin; systemic,237
+21600266,flecainide; systemic,188
+21600270,amiodarone; systemic,198
+21600317,"glyceryl trinitrate; oral, oral aerosol, sublingual, transdermal",165
+21600327,"glyceryl trinitrate, combinations; systemic",165
+21601626,"glyceryl trinitrate; rectal, topical",165
+948024,[U] glyceryl trinitrate; systemic,165
+21600321,"isosorbide dinitrate; oral, oral aerosol, sublingual, transdermal",299
+21600331,"isosorbide dinitrate, combinations; systemic",299
+21601627,"isosorbide dinitrate; rectal, topical",299
+948004,[U] isosorbide dinitrate; systemic,299
+21600324,isosorbide mononitrate; oral,114
+21600375,ibuprofen; parenteral,38
+21602465,ibuprofen; vaginal,38
+21603967,"ibuprofen; systemic, rectal",38
+21603984,"ibuprofen, combinations; systemic",38
+21604049,ibuprofen; topical,38
+1123631,codeine and ibuprofen; systemic,38
+1123817,oxycodone and ibuprofen; systemic,38
+1588667,ibuprofen; oral,38
+21600377,ranolazine; oral,258
+21600398,clonidine; systemic,75
+21600467,clonidine and diuretics; systemic,75
+21600469,"clonidine and diuretics, combinations with other drugs; systemic",75
+21604385,clonidine; oral,75
+21603676,clonidine; ophthalmic,75
+21600399,guanfacine; oral,300
+21600411,prazosin; oral,190
+21600471,"prazosin and diuretics; oral, topical",190
+21600414,doxazosin; oral,209
+21600429,hydralazine; oral,103
+21600476,hydralazine and diuretics; systemic,103
+715818,ambrisentan and tadalafil; oral,261
+21602653,tadalafil; oral,261
+715862,tamsulosin and tadalafil; systemic,261
+21601466,hydrochlorothiazide; oral,11
+21601477,hydrochlorothiazide and potassium; oral,11
+21601488,"hydrochlorothiazide, combinations; oral",11
+21601543,hydrochlorothiazide and potassium-sparing agents; oral,11
+1502112,"ramipril, amlodipine and hydrochlorothiazide; oral",11
+21601846,"valsartan, amlodipine and hydrochlorothiazide; oral",11
+40256427,"olmesartan medoxomil, amlodipine and hydrochlorothiazide; oral",11
+715819,"candesartan, amlodipine and hydrochlorothiazide; oral",11
+715853,"irbesartan, amlodipine and hydrochlorothiazide; systemic",11
+21601852,aliskiren and hydrochlorothiazide; oral,11
+40256434,"aliskiren, amlodipine and hydrochlorothiazide; oral",11
+21601493,chlortalidone; oral,133
+21601506,chlortalidone and potassium; oral,133
+21601548,chlortalidone and potassium-sparing agents; oral,133
+21601518,furosemide; systemic,19
+21601523,furosemide and potassium; oral,19
+21601554,furosemide and potassium-sparing agents; systemic,19
+21601519,bumetanide; systemic,270
+21601524,bumetanide and potassium; oral,270
+21601555,bumetanide and potassium-sparing agents; systemic,270
+21601521,torasemide; systemic,213
+21601534,spironolactone; oral,51
+21601615,"fluocinonide; rectal, topical",280
+21602127,fluocinonide; topical,280
+21602174,fluocinonide and antibiotics; topical,280
+45893195,"diltiazem; rectal, topical",76
+21601771,diltiazem; oral,76
+21601670,propranolol; systemic,88
+21601704,propranolol and thiazides; systemic,88
+21601740,[D] propranolol and other antihypertensives,88
+1123625,propranolol and other combinations; systemic,88
+21601671,timolol; systemic,143
+21601705,timolol and thiazides; systemic,143
+21601732,"timolol, thiazides and other diuretics; systemic",143
+21603699,timolol; ophthalmic,143
+21603705,"timolol, combinations; ophthalmic",143
+21601672,sotalol; systemic,296
+21601681,"[D] sotalol, combinations; systemic",296
+21601706,sotalol and thiazides; oral,296
+1123780,sotalol and acetylsalicylic acid; systemic,296
+21601684,metoprolol; systemic,6
+21601696,"[D] metoprolol, combinations; systemic",6
+21601710,metoprolol and thiazides; systemic,6
+21601715,"metoprolol and thiazides, combinations; systemic",6
+21601725,metoprolol and other diuretics; systemic,6
+21601742,metoprolol and felodipine; systemic,6
+1123778,metoprolol and amlodipine; systemic,6
+1123901,metoprolol and acetylsalicylic acid; systemic,6
+1123679,metoprolol and ivabradine; systemic,6
+21601685,atenolol; systemic,53
+21601693,s-atenolol; oral,53
+21601711,atenolol and thiazides; systemic,53
+21601726,atenolol and other diuretics; systemic,53
+21601727,"atenolol and other diuretics, combinations; systemic",53
+21601734,"atenolol, thiazides and other diuretics; systemic",53
+21601743,atenolol and nifedipine; systemic,53
+21601689,bisoprolol; oral,267
+21601697,"[D] bisoprolol, combinations; systemic",267
+21601714,bisoprolol and thiazides; systemic,267
+40255827,bisoprolol and amlodipine; systemic,267
+1123893,bisoprolol and acetylsalicylic acid; systemic,267
+1588699,perindopril and bisoprolol; systemic,267
+715855,"perindopril, bisoprolol and amlodipine; systemic",267
+947987,ramipril and bisoprolol; systemic,267
+21601694,nebivolol; oral,239
+40255797,nebivolol and thiazides; oral,239
+45893481,nebivolol and amlodipine; oral,239
+715770,valsartan and nebivolol; oral,239
+21601699,labetalol; systemic,210
+21601717,labetalol and thiazides; systemic,210
+21601729,labetalol and other diuretics; systemic,210
+21601700,carvedilol; oral,26
+1123624,"carvedilol and ivabradine; oral, rectal",26
+21601743,atenolol and nifedipine; systemic,135
+21601751,nifedipine; systemic,135
+21601762,"nifedipine, combinations; systemic",135
+21601781,nifedipine and diuretics; systemic,135
+40255827,bisoprolol and amlodipine; systemic,5
+45893481,nebivolol and amlodipine; oral,5
+1123778,metoprolol and amlodipine; systemic,5
+21601747,amlodipine; oral,5
+715793,amlodipine and celecoxib; oral,5
+43534770,amlodipine and diuretics; oral,5
+21601817,lisinopril and amlodipine; oral,5
+21601818,perindopril and amlodipine; systemic,5
+40256150,ramipril and amlodipine; oral,5
+43534772,"perindopril, amlodipine and indapamide; systemic",5
+1502112,"ramipril, amlodipine and hydrochlorothiazide; oral",5
+715855,"perindopril, bisoprolol and amlodipine; systemic",5
+21601842,valsartan and amlodipine; oral,5
+21601843,olmesartan medoxomil and amlodipine; oral,5
+21601844,telmisartan and amlodipine; oral,5
+40256422,irbesartan and amlodipine; systemic,5
+40256423,losartan and amlodipine; oral,5
+43534773,candesartan and amlodipine; oral,5
+715848,fimasartan and amlodipine; oral,5
+21601846,"valsartan, amlodipine and hydrochlorothiazide; oral",5
+40256427,"olmesartan medoxomil, amlodipine and hydrochlorothiazide; oral",5
+715819,"candesartan, amlodipine and hydrochlorothiazide; oral",5
+715853,"irbesartan, amlodipine and hydrochlorothiazide; systemic",5
+40256433,aliskiren and amlodipine; oral,5
+40256434,"aliskiren, amlodipine and hydrochlorothiazide; oral",5
+948065,"[U] atorvastatin, combinations; oral",5
+21601906,atorvastatin and amlodipine; oral,5
+45893493,"rosuvastatin, amlodipine and lisinopril; oral",5
+45893492,rosuvastatin and amlodipine; oral,5
+1588653,"atorvastatin, amlodipine and perindopril; systemic",5
+1501780,"rosuvastatin, amlodipine and perindopril; systemic",5
+947941,"atorvastatin, amlodipine and ramipril; oral",5
+715793,amlodipine and celecoxib; oral,98
+21603805,celecoxib; oral (antineoplastic agents),98
+21603992,celecoxib; oral (coxibs),98
+21601767,verapamil; systemic,151
+21601769,"verapamil, combinations; systemic",151
+21601820,trandolapril and verapamil; systemic,151
+21601787,lisinopril; oral,4
+21601805,lisinopril and diuretics; oral,4
+21601817,lisinopril and amlodipine; oral,4
+45893493,"rosuvastatin, amlodipine and lisinopril; oral",4
+21601789,ramipril; oral,196
+21601807,ramipril and diuretics; oral,196
+21601819,ramipril and felodipine; oral,196
+40256150,ramipril and amlodipine; oral,196
+1502112,"ramipril, amlodipine and hydrochlorothiazide; oral",196
+947987,ramipril and bisoprolol; systemic,196
+40251722,"simvastatin, acetylsalicylic acid and ramipril; systemic",196
+45893500,"atorvastatin, acetylsalicylic acid and ramipril; systemic",196
+715861,rosuvastatin and ramipril; oral,196
+947941,"atorvastatin, amlodipine and ramipril; oral",196
+21601790,quinapril; systemic,253
+21601808,quinapril and diuretics; systemic,253
+21601791,benazepril; oral,141
+21601809,benazepril and diuretics; oral,141
+21601824,losartan; oral,9
+21601834,losartan and diuretics; oral,9
+40256423,losartan and amlodipine; oral,9
+21601826,valsartan; oral,123
+21601836,valsartan and diuretics; oral,123
+21601842,valsartan and amlodipine; oral,123
+1588655,valsartan and lercanidipine; oral,123
+21601846,"valsartan, amlodipine and hydrochlorothiazide; oral",123
+21601847,valsartan and aliskiren; oral,123
+1588648,valsartan and sacubitril; oral,123
+715770,valsartan and nebivolol; oral,123
+1588687,rosuvastatin and valsartan; oral,123
+21601827,irbesartan; oral,148
+21601837,irbesartan and diuretics; systemic,148
+40256422,irbesartan and amlodipine; systemic,148
+715853,"irbesartan, amlodipine and hydrochlorothiazide; systemic",148
+21601830,telmisartan; oral,248
+21601839,telmisartan and diuretics; oral,248
+21601844,telmisartan and amlodipine; oral,248
+21601831,olmesartan medoxomil; oral,139
+21601840,olmesartan medoxomil and diuretics; oral,139
+21601843,olmesartan medoxomil and amlodipine; oral,139
+40256427,"olmesartan medoxomil, amlodipine and hydrochlorothiazide; oral",139
+21601857,lovastatin; oral,99
+948072,"[U] lovastatin, combinations; systemic",99
+21601900,lovastatin and nicotinic acid; systemic,99
+21601858,pravastatin; oral,34
+948016,"[U] pravastatin, combinations; systemic",34
+21601902,pravastatin and fenofibrate; systemic,34
+947900,pravastatin and ezetimibe; systemic,34
+21601905,pravastatin and acetylsalicylic acid; systemic,34
+21601860,atorvastatin; oral,1
+948065,"[U] atorvastatin, combinations; oral",1
+43534776,atorvastatin and ezetimibe; oral,1
+715844,atorvastatin and omega-3 fatty acids; systemic,1
+21601906,atorvastatin and amlodipine; oral,1
+45893500,"atorvastatin, acetylsalicylic acid and ramipril; systemic",1
+45893511,atorvastatin and acetylsalicylic acid; systemic,1
+1588653,"atorvastatin, amlodipine and perindopril; systemic",1
+1123623,"atorvastatin, acetylsalicylic acid and perindopril; systemic",1
+1502051,atorvastatin and perindopril; systemic,1
+947941,"atorvastatin, amlodipine and ramipril; oral",1
+21601868,gemfibrozil; oral,189
+21601869,fenofibrate; oral,95
+21601902,pravastatin and fenofibrate; systemic,95
+43534775,"simvastatin and fenofibrate; oral, topical",95
+715858,rosuvastatin and fenofibrate; oral,95
+21601896,ezetimibe; oral,100
+21601901,"simvastatin and ezetimibe; oral, topical",100
+43534776,atorvastatin and ezetimibe; oral,100
+43534777,rosuvastatin and ezetimibe; oral,100
+947820,bempedoic acid and ezetimibe; oral,100
+947900,pravastatin and ezetimibe; systemic,100
+21601927,ketoconazole; topical,170
+21602399,ketoconazole; vaginal,170
+947829,ketoconazole; systemic,170
+21603078,ketoconazole; oral,170
+21601934,fluconazole; topical,174
+45893479,"azithromycin, fluconazole and secnidazole; oral",174
+21603080,fluconazole; systemic,174
+21601954,terbinafine; topical,279
+21601967,terbinafine; oral; topical,279
+21602010,promethazine; topical,208
+21603481,"promethazine; systemic, rectal",208
+21603484,hydroxyethylpromethazine; oral,208
+21603489,"promethazine, combinations; systemic",208
+21603490,"hydroxyethylpromethazine, combinations; systemic",208
+21605234,prednisolone and promethazine; systemic,208
+21602016,diphenhydramine; topical,192
+21602017,diphenhydramine methylbromide; topical,192
+21604457,etanautine; systemic,192
+21603448,"diphenhydramine; oral, rectal",192
+21603454,"diphenhydramine, combinations; systemic",192
+715873,doxepin; topical,252
+21604699,doxepin; systemic,252
+21602068,mupirocin; topical,203
+21603201,"mupirocin; inhalant, nasal",203
+21602085,aciclovir; topical,162
+21602094,"aciclovir, combinations; topical",162
+21603131,aciclovir; systemic,162
+21603588,aciclovir; ophthalmic,162
+21602101,"methylprednisolone; topical (corticosteroids, weak (group i))",161
+21602133,methylprednisolone aceponate; topical,161
+21602161,methylprednisolone and antibiotics; topical,161
+21602285,"methylprednisolone; topical (corticosteroids, comb. for treatment of acne)",161
+21602732,methylprednisolone; systemic,161
+21602747,"methylprednisolone, combinations; systemic",161
+21603659,methylprednisolone and antiinfectives; ophthalmic,161
+21602132,mometasone; topical,231
+21602192,"mometasone, combinations; topical (corticosteroids, potent, other comb.)",231
+21605051,mometasone; nasal,231
+947911,"mometasone, combinations; topical (corticosteroids)",231
+43534840,formoterol and mometasone; inhalant,231
+715851,indacaterol and mometasone; inhalant,231
+715852,"indacaterol, glycopyrronium bromide and mometasone; inhalant",231
+21603290,mometasone; inhalant,231
+21602136,fluticasone; topical,23
+21605050,fluticasone; nasal,23
+21605053,fluticasone furoate; nasal,23
+43534837,"fluticasone, combinations; inhalant, nasal",23
+21603280,salmeterol and fluticasone; inhalant,23
+43534841,vilanterol and fluticasone furoate; inhalant,23
+44819166,formoterol and fluticasone; inhalant,23
+1501769,"vilanterol, umeclidinium bromide and fluticasone furoate; inhalant",23
+21603288,fluticasone; inhalant,23
+45893496,fluticasone furoate; inhalant,23
+21602141,clobetasol; topical,171
+21602177,clobetasol and antibiotics; topical,171
+21602293,tretinoin; topical,230
+21602298,"tretinoin, combinations; topical",230
+947751,tretinoin; systemic,230
+21603793,[U] tretinoin; systemic,230
+21602296,isotretinoin; topical,264
+21602300,"isotretinoin, combinations; topical",264
+21602320,isotretinoin; oral,264
+21602305,clindamycin; topical,125
+21602309,"clindamycin, combinations; topical",125
+21602372,clindamycin; vaginal,125
+21602985,clindamycin; systemic,125
+21602306,erythromycin; topical,225
+21602310,"erythromycin, combinations; topical",225
+21602970,erythromycin; systemic,225
+21603568,erythromycin; ophthalmic,225
+21602350,"finasteride; oral, topical (dermatologicals)",90
+21602672,alfuzosin and finasteride; systemic,90
+21602675,finasteride; oral (testosterone-5-alpha reductase inhibitors),90
+21602355,diclofenac; topical (dermatologicals),72
+21603945,"diclofenac; systemic, rectal",72
+21603959,"diclofenac, combinations; oral",72
+21604051,"diclofenac; topical (antiinflammatory prep., non-steroids for topical use)",72
+21603641,diclofenac; ophthalmic,72
+21603670,diclofenac and antiinfectives; ophthalmic,72
+43534782,brimonidine; topical,175
+21603677,brimonidine; ophthalmic (sympathomimetics in glaucoma therapy),175
+947915,brimonidine; ophthalmic (sympathomimetics used as decongestants),175
+21602449,plastic IUD with progestogen,158
+21602451,vaginal ring with progestogen and estrogen; vaginal,158
+715899,vaginal ring with progestogen; vaginal,158
+21602542,"progesterone; systemic, rectal, vaginal",158
+21602571,progesterone and estrogen; systemic,158
+21602451,vaginal ring with progestogen and estrogen; vaginal,59
+21602487,nomegestrol and estradiol; systemic,59
+715900,medroxyprogesterone and estradiol; systemic,59
+40253998,dienogest and estradiol; systemic,59
+21602517,"estradiol; nasal, systemic, rectal, transdermal, vaginal",59
+21602522,"estradiol, combinations; systemic",59
+21602561,testosterone and estrogen; systemic,59
+21602562,prasterone and estrogen; systemic,59
+21602569,hydroxyprogesterone and estrogen; systemic,59
+21602571,progesterone and estrogen; systemic,59
+21602572,methylnortestosterone and estrogen; systemic,59
+21602579,"medroxyprogesterone and estrogen; systemic (progestogens and estrogens, fixed comb.)",59
+21602580,norgestimate and estrogen; systemic,59
+21602581,"dydrogesterone and estrogen; systemic (progestogens and estrogens, fixed comb.)",59
+21602582,dienogest and estrogen; systemic,59
+21602583,"trimegestone and estrogen; systemic (progestogens and estrogens, fixed comb.)",59
+21602584,drospirenone and estrogen; systemic,59
+21602591,"medroxyprogesterone and estrogen; systemic (progestogens and estrogens, sequential prep.)",59
+21602593,"dydrogesterone and estrogen; systemic (progestogens and estrogens, sequential prep.)",59
+21602596,"trimegestone and estrogen; systemic (progestogens and estrogens, sequential prep.)",59
+43534786,nomegestrol and estrogen; systemic,59
+947807,"relugolix, estradiol and norethisterone; systemic",59
+21602466,naproxen; vaginal,91
+21603968,"naproxen; oral, rectal",91
+40254094,naproxcinod; systemic,91
+40254096,naproxen and esomeprazole; oral,91
+40254098,naproxen and misoprostol; systemic,91
+21604048,naproxen; topical,91
+21602478,"norethisterone and ethinylestradiol; systemic (progestogens and estrogens, fixed comb.)",137
+21602492,"norethisterone and ethinylestradiol; systemic (progestogens and estrogens, sequential prep.)",137
+21602497,norethisterone; parenteral,137
+21602553,norethisterone; oral,137
+21602568,"norethisterone and estrogen; systemic (progestogens and estrogens, fixed comb.)",137
+21602590,"norethisterone and estrogen; systemic (progestogens and estrogens, sequential prep.)",137
+947807,"relugolix, estradiol and norethisterone; systemic",137
+21602481,medroxyprogesterone and ethinylestradiol; systemic,214
+715900,medroxyprogesterone and estradiol; systemic,214
+21602502,medroxyprogesterone; parenteral,214
+21602540,medroxyprogesterone; systemic (pregnen (4) derivatives),214
+21602579,"medroxyprogesterone and estrogen; systemic (progestogens and estrogens, fixed comb.)",214
+21602591,"medroxyprogesterone and estrogen; systemic (progestogens and estrogens, sequential prep.)",214
+21603821,medroxyprogesterone; systemic (progestogens),214
+21602625,raloxifene; oral,292
+21602637,"oxybutynin; oral, transdermal",97
+21602640,tolterodine; oral,271
+21602641,solifenacin; oral,266
+43534791,tamsulosin and solifenacin; systemic,266
+43534790,mirabegron; oral,160
+21602648,sildenafil; oral,183
+21602669,tamsulosin; oral,24
+21602673,tamsulosin and dutasteride; systemic,24
+43534791,tamsulosin and solifenacin; systemic,24
+715862,tamsulosin and tadalafil; systemic,24
+21602670,terazosin; oral,211
+21602754,levothyroxine sodium; systemic,2
+21602756,combinations of levothyroxine and liothyronine; systemic,2
+21602755,liothyronine sodium; systemic,218
+21602756,combinations of levothyroxine and liothyronine; systemic,218
+21602766,thiamazole; oral,206
+21602767,"thiamazole, combinations; systemic",206
+948037,[U] cefalexin; systemic,101
+21602870,cefalexin; oral,101
+948009,[U] cefdinir; oral,228
+21602909,cefdinir; oral,228
+21602978,azithromycin; systemic,68
+45893479,"azithromycin, fluconazole and secnidazole; oral",68
+21603577,azithromycin; ophthalmic,68
+21603008,ofloxacin; systemic,242
+45893194,ofloxacin and ornidazole; systemic,242
+43534856,ofloxacin; ophthalmic,242
+21603605,[U] ofloxacin; ophthalmic,242
+21605162,ofloxacin; otic,242
+21603009,ciprofloxacin; systemic,132
+45893269,ciprofloxacin and metronidazole; systemic,132
+45893513,ciprofloxacin and tinidazole; systemic,132
+45893270,ciprofloxacin and ornidazole; systemic,132
+43534858,ciprofloxacin; ophthalmic (fluoroquinolones),132
+21603607,[U] ciprofloxacin; ophthalmic,132
+21605161,ciprofloxacin; otic,132
+21605196,"ciprofloxacin; ophthalmic, otic (antiinfectives)",132
+21603058,nitrofurantoin; oral,167
+45893503,"nitrofurantoin, combinations; systemic",167
+21603137,valaciclovir; oral,119
+21603179,oseltamivir; oral,178
+21601423,methotrexate; systemic (folic acid analog.),113
+21603929,methotrexate; systemic (immunosuppressants),113
+21603841,anastrozole; oral,180
+21603842,letrozole; oral,257
+947988,[U] ciclosporin; systemic,212
+21603924,ciclosporin; systemic,212
+21605142,ciclosporin; ophthalmic,212
+948031,[U] adalimumab; parenteral,205
+21603911,adalimumab; parenteral,205
+21603955,ketorolac; systemic,249
+21603643,ketorolac; ophthalmic,249
+1123824,phenylephrine and ketorolac; ophthalmic,249
+21603965,"meloxicam; systemic, rectal",28
+40254075,"meloxicam, combinations; systemic",28
+947920,bupivacaine and meloxicam; parenteral,28
+21604095,methocarbamol; systemic,127
+21604100,"methocarbamol, combinations excl. psycholeptics; systemic",127
+21604103,"methocarbamol, combinations with psycholeptics; systemic",127
+21604115,baclofen; systemic,108
+21604116,tizanidine; oral,84
+21604122,cyclobenzaprine; oral,39
+21604131,allopurinol; systemic,42
+21604134,"allopurinol, combinations; systemic",42
+21604141,colchicine; systemic,241
+21604152,alendronic acid; oral,94
+21604160,alendronic acid and colecalciferol; oral,94
+40254956,"alendronic acid, calcium and colecalciferol, sequential; oral",94
+43534826,"alendronic acid and alfacalcidol, sequential; oral",94
+21604258,"hydromorphone; systemic, rectal",250
+1501758,hydromorphone and naloxone; systemic,250
+21604295,hydromorphone and antispasmodics; systemic,250
+21604260,oxycodone; systemic,54
+21604265,oxycodone and naloxone; oral,54
+1502107,oxycodone and naltrexone; systemic,54
+1123748,oxycodone and paracetamol; systemic,54
+1123747,oxycodone and acetylsalicylic acid; systemic,54
+1123817,oxycodone and ibuprofen; systemic,54
+21604287,"buprenorphine; parenteral, sublingual, transdermal",186
+21604826,buprenorphine; sublingual,186
+21604830,"buprenorphine, combinations; sublingual",186
+1123820,dihydrocodeine and paracetamol; systemic,118
+1123647,codeine and paracetamol; systemic,118
+1123645,tramadol and paracetamol; systemic,118
+1123748,oxycodone and paracetamol; systemic,118
+21604302,"[D] tramadol, combinations; systemic",118
+21604344,"paracetamol; systemic, rectal",118
+21604347,propacetamol; parenteral,118
+21604348,"paracetamol, combinations excl. psycholeptics; systemic",118
+21604351,"paracetamol, combinations with psycholeptics; systemic",118
+1123645,tramadol and paracetamol; systemic,35
+1123626,tramadol and dexketoprofen; systemic,35
+1123902,tramadol and other non-opioid analgesics; systemic,35
+21604298,"tramadol; systemic, rectal",35
+21604302,"[D] tramadol, combinations; systemic",35
+21604376,"sumatriptan; nasal, systemic, rectal",111
+21604379,rizatriptan; oral,134
+715930,erenumab; parenteral,234
+1501886,[U] erenumab; parenteral,234
+21604394,primidone; oral,269
+21604399,phenytoin; systemic,260
+21604403,"phenytoin, combinations; systemic",260
+21604415,clonazepam; systemic,44
+21604417,"carbamazepine; oral, rectal",185
+21604418,oxcarbazepine; oral,144
+21604422,"valproic acid; systemic, rectal",109
+21604431,lamotrigine; oral,62
+21604433,topiramate; oral,57
+21604434,gabapentin; oral,10
+21604436,levetiracetam; systemic,92
+21604437,zonisamide; oral,276
+21604438,pregabalin; oral,78
+21604460,benzatropine; systemic,229
+21604476,ropinirole; oral,156
+21604477,pramipexole; oral,193
+21604529,ziprasidone; systemic,282
+43534827,lurasidone; oral,259
+21604543,olanzapine; systemic,164
+21604544,quetiapine; oral,64
+21604556,lithium; oral,197
+21604559,risperidone; systemic,138
+21604562,aripiprazole; systemic,89
+21604566,"diazepam; systemic, rectal",128
+21604571,"lorazepam; systemic, sublingual",65
+21604588,"lorazepam, combinations; systemic",65
+21604577,alprazolam; oral,37
+21604590,hydroxyzine; systemic,70
+21604592,"hydroxyzine, combinations; systemic",70
+21604601,buspirone; oral,55
+21604642,temazepam; oral,223
+21604655,zolpidem; oral,47
+21604657,eszopiclone; oral,232
+21604659,melatonin; oral,298
+948041,[U] melatonin; systemic,298
+21604696,amitriptyline; systemic,81
+21604789,amitriptyline and psycholeptics; systemic,81
+21604697,nortriptyline; systemic,155
+21604711,fluoxetine; oral,25
+43534830,fluoxetine and psycholeptics; oral,25
+21604712,citalopram; systemic,31
+21604713,paroxetine; oral,82
+21604714,sertraline; oral,12
+21604718,escitalopram; oral,15
+21604734,trazodone; oral,21
+21604740,mirtazapine; oral,104
+21604745,venlafaxine; oral,43
+21604749,duloxetine; oral,27
+21604751,desvenlafaxine; oral,176
+44819158,vortioxetine; oral,243
+21604757,methylphenidate; oral,41
+21604762,atomoxetine; oral,287
+21604764,dexmethylphenidate; oral,130
+40252237,lisdexamfetamine; oral,85
+21604795,donepezil; oral,112
+40252271,donepezil and memantine; systemic,112
+45893515,"donepezil, memantine and Ginkgo folium; systemic",112
+40252271,donepezil and memantine; systemic,152
+45893515,"donepezil, memantine and Ginkgo folium; systemic",152
+21604799,memantine; oral,152
+21604819,varenicline; oral,275
+21604889,hydroxychloroquine; oral,126
+21605035,azelastine; nasal,173
+21603519,azelastine; oral,173
+21605091,azelastine; ophthalmic,173
+21605040,"olopatadine; inhalant, nasal",268
+21605093,olopatadine; ophthalmic,268
+21603256,salbutamol; inhalant,7
+21603278,salbutamol and sodium cromoglicate; inhalant,7
+1123813,salbutamol and beclometasone; inhalant,7
+43534844,salbutamol and ipratropium bromide; inhalant,7
+21603312,salbutamol; systemic,7
+43534845,vilanterol and umeclidinium bromide; inhalant,245
+1501769,"vilanterol, umeclidinium bromide and fluticasone furoate; inhalant",245
+45893265,umeclidinium bromide; inhalant,245
+1588644,olodaterol and tiotropium bromide; inhalant,110
+715849,formoterol and tiotropium bromide; inhalant,110
+21603296,tiotropium bromide; inhalant,110
+45893520,"tiotropium bromide, combinations; inhalant",110
+21603356,montelukast; oral,14
+45893519,"montelukast, combinations; systemic",14
+21603410,benzonatate; oral,157
+21603495,"meclozine; oral, rectal",142
+21603501,"meclozine, combinations; systemic",142
+21603497,cetirizine; oral,52
+947863,cetirizine; ophthalmic,52
+21603498,levocetirizine; oral,179
+21603514,loratadine; oral,73
+21603517,ketotifen; oral,289
+21605092,ketotifen; ophthalmic,289
+21603525,fexofenadine; oral,255
+21603695,dorzolamide; ophthalmic,216
+21603710,latanoprost; ophthalmic,77
+715827,latanoprost and netarsudil; ophthalmic,77
+21603712,bimatoprost; ophthalmic,166
