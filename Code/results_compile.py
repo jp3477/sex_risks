@@ -52,6 +52,11 @@ def compile_results():
         scores.at[(drug, adr), 'logROR_ci95_low'] = lower
         scores.at[(drug, adr), 'logROR_ci95_upp'] = upper
 
+        #Average XFE, XME
+
+        scores.at[(drug, adr), 'XFE'] = int(np.mean(data['XFE'].values))
+        scores.at[(drug, adr), 'XME'] = int(np.mean(data['XME'].values))
+
     name_atc4, name_atc5, name_hlgt, name_soc, name_pt = defaultdict(
         str), defaultdict(str), defaultdict(str), defaultdict(
             str), defaultdict(str)

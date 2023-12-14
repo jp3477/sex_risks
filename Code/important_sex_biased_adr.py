@@ -3,18 +3,21 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import numpy as np
+from utils import Utils
+from pathlib import Path
 
+u = Utils()
 
 def load_concept_table():
     CONCEPT_TABLE_FILE = 'CONCEPT.csv'
-    concept_table = pd.read_csv(CONCEPT_TABLE_FILE, sep='\t')
+    concept_table = pd.read_csv(Path(u.DATA_PATH) / CONCEPT_TABLE_FILE, sep='\t')
 
     return concept_table
 
 
 def load_concept_relationship_table():
     CONCEPT_RELATIONSHIP_TABLE_FILE = 'CONCEPT_RELATIONSHIP.csv'
-    concept_relationship_table = pd.read_csv(CONCEPT_RELATIONSHIP_TABLE_FILE,
+    concept_relationship_table = pd.read_csv(Path(u.DATA_PATH) / CONCEPT_RELATIONSHIP_TABLE_FILE,
                                              sep='\t')
 
     return concept_relationship_table
@@ -22,14 +25,14 @@ def load_concept_relationship_table():
 
 def load_concept_ancestor_table():
     CONCEPT_ANCESTOR_TABLE_FILE = 'CONCEPT_ANCESTOR.csv'
-    concept_ancestor_table = pd.read_csv(CONCEPT_ANCESTOR_TABLE_FILE, sep='\t')
+    concept_ancestor_table = pd.read_csv(Path(u.DATA_PATH) / CONCEPT_ANCESTOR_TABLE_FILE, sep='\t')
 
     return concept_ancestor_table
 
 
 def load_sex_risks():
     sex_risks = feather.read_table(
-        './DataGranular/sex_risks_with_counts.feather')
+        Path(u.DATA_PATH) / 'sex_risks.feather')
     sex_risks = sex_risks.to_pandas()
 
     sex_risks['drug'] = pd.to_numeric(sex_risks['drug'])
@@ -61,7 +64,7 @@ def load_top_drugs():
 
 def get_top_adrs(meddra_concepts):
     # adr_file = "./top_adr.xlsx"
-    adr_file = "./FAERS_ADE_Severity.csv"
+    adr_file = Path(u.DATA_PATH) / "FAERS_ADE_Severity.csv"
     top_adrs = pd.read_csv(adr_file, header=0)
 
     # top_adrs = top_adrs.iloc[:n]
@@ -136,7 +139,7 @@ def filter_sex_risks():
                                             right_on=['concept_id'],
                                             suffixes=('_atc', '_drug'))
 
-    top_adrs = get_top_adrs(meddra_concepts, n=50)
+    top_adrs = get_top_adrs(meddra_concepts)
     top_adrs['adr_rank'] = top_adrs.index
     top_adrs = top_adrs.rename(columns={'Event': 'top_adr_name'})
 
@@ -169,7 +172,7 @@ def filter_sex_risks():
         'drug_rank', 'drug', 'drug_name', 'adr_rank', 'adr', 'adr_name',
         'logROR_avg', 'p_val_med', 'female_report_count', 'male_report_count'
     ]]
-    sex_risks.to_csv('sex_risks_pt.csv', index=False)
+    sex_risks.to_csv(Path(u.DATA_PATH) / 'sex_risks_pt.csv', index=False)
     # print(sex_risks)
     # sex_risks = sex_risks[sex_risks['adr'].isin(top_adrs)]
 
