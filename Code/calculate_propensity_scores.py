@@ -13,7 +13,7 @@ def calculate_propensity_scores():
     df_patients = u.load_df('df_patients')
     df_patients = df_patients.sort_values(by='PID')
 
-    model = joblib.load(u.DATA_PATH + 'PSM_models/RF/Best.pkl')
+    model = joblib.load(u.DATA_PATH + 'PSM_models/RF2/Best.pkl')
     clf = model['classifier']
 
     p_scores = clf.oob_decision_function_[:,

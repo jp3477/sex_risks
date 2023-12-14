@@ -8,6 +8,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_selection import chi2, f_classif, SelectPercentile
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import GridSearchCV
+from sklearn.preprocessing import LabelEncoder
 import joblib
 
 import pymysql
@@ -28,7 +29,7 @@ def run_rf_model():
     df_patients = u.load_df('df_patients')
     df_patients = df_patients.sort_values(by='PID')
 
-    drugs = u.load_np('drugs')[:1]
+    drugs = u.load_np('drugs')
 
     drug_features = []
     for i, drugID in enumerate(drugs):
@@ -47,8 +48,12 @@ def run_rf_model():
     features.append(num_drugs_feature)
     features.extend(drug_features)
 
-    X = hstack(features)
-    y = u.load_feature('label').toarray().reshape(-1)
+    X = hstack(features, dtype=float)
+    # y = u.load_feature('label').toarray().reshape(-1)
+
+    le = LabelEncoder()
+    le.fit(['M', 'F'])
+    y = le.transform(df_patients['Sex'].array)
 
     # random forest
 
@@ -64,7 +69,9 @@ def run_rf_model():
         'classifier__criterion': ['gini', 'entropy']
     }
 
-    CV = GridSearchCV(model, param_grid, n_jobs=1)
+    CV = GridSearchCV(model, param_grid, n_jobs=30)
+
+    print('Fitting model')
 
     CV.fit(X, y)
     print(CV.best_params_)

@@ -16,7 +16,7 @@ from tqdm.contrib.concurrent import process_map
 np.random.seed(222020)
 
 u = Utils()
-ITERATIONS = 2
+ITERATIONS = 25
 
 
 def run_analysis(drugID):

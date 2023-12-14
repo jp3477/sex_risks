@@ -25,6 +25,10 @@ def make_results():
         if s == 'yes':
             complete.append(drugID)
         progress[s] += 1
+    
+    # for drugID in drugs:
+    #     complete.append(drugID)
+    #     # progress[s] += 1
 
     for key in progress:
         percentage = round((progress[key] / len(drugs)) * 100, 1)

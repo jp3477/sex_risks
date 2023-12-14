@@ -1,5 +1,5 @@
 from select_patients import fetch_patients
-from psm_make_feature import make_features_mp
+from psm_make_feature import make_features
 from psm_model_rf import run_rf_model
 from calculate_propensity_scores import calculate_propensity_scores
 from run import run_analysis_mp
@@ -12,7 +12,7 @@ if __name__ == '__main__':
     fetch_patients()
 
     print("Make features")
-    make_features_mp()
+    make_features()
 
     print("Running propensity score matching")
     run_rf_model()
